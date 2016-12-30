@@ -1,0 +1,9 @@
+
+my_config_form.myform:
+  path: '/my_config_form/form/my_config'
+  defaults:
+    _form: '\Drupal\my_config_form\Form\MyConfigForm'
+    _title: 'MyConfigForm'
+  requirements:
+    _access: 'TRUE'
+  
